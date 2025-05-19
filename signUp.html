@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="signUp.css">
+</head>
+<body>
+   
+    <div class="signup">
+        <h1>Sign Up</h1>
+       
+
+        <form action="sign.php" method="POST">
+            <div>
+            <label for="firstName" >First Name</label>
+                <input id="firstname" type="text" name="firstname" required placeholder="First Name"> 
+                   </div>
+                <div>
+                <label for="middlename" >Middle Name</label>
+                <input id="middlename"  type="text" name="middlename" placeholder="Middle Name" > 
+                   </div>
+                <div>
+                <label for="lastName" >Last Name</label>
+                <input id="lastname" type="text" name="lastname" required placeholder="Last Name"> 
+                   </div>
+                <div>
+                <label for="email" >Email </label>
+                <input id="email" type="email" name="email" required placeholder="Email"> 
+                   </div>
+                <div>
+                <label for="address" >Address</label>
+                <input id="address" type="text" name="address" required placeholder="Address"> 
+                   </div>
+                <div>
+                <label for="phonenumber" >Phone Number</label>
+                <input id="phonenumber" type="number" name="phonenumber" required placeholder="Phone Number"> 
+                   </div>
+                <div class="genderContainer">
+                <label>Gender</label>
+               
+                <input type="radio" class="gender1" value="m" id="male" name="gender" required value="male">Male
+             
+                <input type="radio" class="gender1" value="f" id="female" name="gender" required value="female">Female
+                
+                <input type="radio" class="gender1" value="o" id="other" name="gender" required value="other">Other
+                   </dvi>
+                <div>    
+    
+                <label for="password" >Password</label>
+                <input id="password" type="password" name="password" required placeholder="Password">
+                   </div>
+                   <div class="btn">
+                    <button>Sign Up</button>
+                   </div>
+            
+
+        </form>
+        <p>By clicking Sign Up, you agree to our 
+        <a href="">Terms and Condition</a> and <a href="">Policy Privacy</a>
+
+        </p>
+        Already have an account? <a href="signin.html">Login Here</a>
+        <p>
+
+        </p>
+    </div>
+    
+</body>
+</html>

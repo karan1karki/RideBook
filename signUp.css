@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+    --main-color: #056d2c;
+    --second-color: #89240e;
+    --text-color: #020202;
+    --gradient: linear-gradient(#056d2c,#056d2c, #89240e);
+}
+
+body{
+
+    background-image: url(signup.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    font-family: poppins;
+}
+
+ 
+h1{
+    text-align: center;
+    color: var(--main-color);
+}
+.signup{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    background: white;
+    border-radius: 0.5rem;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 500rem;
+
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border:1px solid gray;
+    border-radius: 0.5rem;
+    outline: none;
+
+}
+.btn{
+    padding-top: 20px;
+    text-align: center;
+    margin: 10px;
+    
+
+}
+button{
+padding: 10px;
+width: 200px;
+    background: #030ba1;
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 19px;
+  }
+  button:hover{
+    background: var(--main-color);
+  }
+  .genderContainer{
+    text-align: center;
+  }
+  .gender1{
+    width: 10%;
+  }
